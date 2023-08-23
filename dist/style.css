@@ -236,7 +236,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 20px;
+  padding: 50px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   z-index: 2;
@@ -271,10 +271,13 @@ img {
   font-size: 4rem;
   gap: 2rem;
 }
-.modal-content #form input {
+.modal-content #form input, .modal-content #form button {
   width: 80%;
   margin-inline: auto;
   border: 1px solid #3A4574;
   height: 4rem;
   padding-inline: 2rem;
+}
+.modal-content #form .form__input._error {
+  box-shadow: 0 0 15px red;
 }/*# sourceMappingURL=style.css.map */
