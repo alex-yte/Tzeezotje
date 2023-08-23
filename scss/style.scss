@@ -291,6 +291,14 @@ img{
         }
         .form__input._error{
             box-shadow: 0 0 15px red;
+        }
+        #status{
+            display: none;
+        }
+        #status.active{
+            display: block;
+            color: #3A4574;
+            font-size: 1.2rem;
         }   
     }
 }

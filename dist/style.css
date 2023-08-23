@@ -280,4 +280,12 @@ img {
 }
 .modal-content #form .form__input._error {
   box-shadow: 0 0 15px red;
+}
+.modal-content #form #status {
+  display: none;
+}
+.modal-content #form #status.active {
+  display: block;
+  color: #3A4574;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
