@@ -29,6 +29,21 @@ document.addEventListener('DOMContentLoaded', ()=>{
   // Event listeners for opening and closing the modal
   openButton.addEventListener('click', openModal);
   overlay.addEventListener('click', closeModal);
+
+  const menuButton = document.querySelectorAll('.mobile-menu-toggle');
+  const closeMenuButton = document.getElementById('close-menu');
+  const mobileMenu = document.getElementById('mobileMenu');
+  menuButton.forEach((item)=>{
+    item.addEventListener('click', () => {
+      if (mobileMenu.style.right === '0px') {
+        mobileMenu.style.right = '-350px';
+      } else {
+        mobileMenu.style.right = '0px';
+      }
+    });
+  })
+
+
 })
 
 document.addEventListener('DOMContentLoaded', ()=>{
